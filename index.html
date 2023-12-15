@@ -1,0 +1,59 @@
+<!DOCTYPE html Name: Kingsley Ohene: 05/13/2021>
+<html lang="en">
+  <head>
+    <title>Employee's Pay</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weekly Salary</h1>
+      <form action="" method="POST" name="salary" id="salary">
+        Enter Name of the Employee:<br />
+        <input type="text" id="employee_name" name=" employee name" required />
+        <br />
+        Enter Employee's Hourly Rate Pay:<br />
+        <input type="text" id="hourly_rate" name="hourly rate" required />
+        <br />
+        Enter Number of Hours Worked for the Week:<br />
+        <input type="text" id="hours_worked" name="hours worked" required />
+        <br />
+        Enter Number of Overtime hours worked:<br />
+        <input type="text" id="overtime" name="overtime" required />
+        <br />
+        Enter Overtime Hourly Rate Pay:<br />
+        <input type="text" id="overtime_rate" name="overtime_rate" required />
+        <br />
+        Enter Tax rate:<br />
+        <input type="text" id="tax_rate" name="tax rate" required />
+        <br />
+        Enter the Amount for Medical Insurance:<br />
+        <input
+          type="text"
+          id="medical_insurance"
+          name="medical insurance"
+          required
+        />
+        <br />
+        Enter Employee's Savings Amount:<br />
+        <input type="text" id="savings" name="savings" required />
+        <br />
+        Enter Employee's Membership Fees (i.e. Company Gym Membership):<br />
+        <input type="text" id="membership" name="membership" required />
+        <br /><br />
+
+        <input type="button" onClick="grossPay()" value="Gross Pay" />
+        <br />
+        <br />
+        <input type="button" onClick="netPay()" value="Net Pay" />
+      </form>
+
+      <p>
+        The employee's pay is: $
+        <span id="result"></span>
+      </p>
+    </div>
+  </body>
+</html>

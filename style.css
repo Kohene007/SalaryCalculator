@@ -1,0 +1,36 @@
+body,
+p,
+header {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.container {
+  width: 350px;
+  clear: both;
+  background-color: #d9d9d9;
+  border: 10px double #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
